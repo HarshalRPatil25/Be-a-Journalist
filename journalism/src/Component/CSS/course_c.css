@@ -1,0 +1,70 @@
+/* course_c.css */
+
+.course-container {
+    width: 50vw;
+    height: 90vh;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+  }
+  
+  .question-container {
+    margin-bottom: 0px;
+    margin-top: -15px;
+  }
+  
+  .question-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .question-header span {
+    margin-right: 20px;
+  }
+  
+  .arrow-icon {
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #333;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .arrow-expanded {
+    transform: rotate(90deg);
+  }
+  
+  .answer-container {
+    margin-top: 8px;
+    border-left: 2px solid #333;
+    padding-left: 10px;
+  }
+  
+  .divider-line {
+    margin-top: 8px;
+    margin-bottom: 2px;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+
+  
+  @media  screen and (max-width:590px) {
+    .course-container{
+        width: 100vh;
+    }
+    
+  }
+  @media  screen and (max-width:690px) {
+    .course-container{
+        width: 100vh;
+    }
+    
+  }
